@@ -183,7 +183,7 @@ ul{
 }
 
 
-.header .header-nav > li:hover .maga-menu{
+.header .header-nav > li .maga-menu{
     opacity: 1;
     z-index: 100;
     top: calc(100% + 3px);
@@ -199,6 +199,10 @@ ul{
     padding: 0 30px;
     transition: 0.5s;
     overflow: hidden;
+}
+
+.hide{
+    display: none !important ;
 }
 
 @media(max-width: 767px){
